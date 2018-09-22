@@ -7,9 +7,8 @@
     </div>
     <div class="col-10 a_propos">
       <h2 class="mb-3 mt-3 text-center w-100">A propos de moi</h2>
-        <p class="text-justify text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <p class="text-justify text">Je suis un jeune Graphiste de 24 ans, titulaire d'un BTS en Communication et Industries Graphiques, que j'ai eu en Juin 2017. Après ce BTS, j'ai cherché à évoluer pour devenir Développeur Web et ainsi pouvoir réaliser des sites internets et y ajouter ma touche Graphique. Pour l'instant, je ne suis qu'un simple Développeur en herbe mais ma curiosité me pousse à grandir pour devenir un jour un Développeur Front-end.
+          Si vous souhaitez me contacter, <a href="contact.php">cliquez ici</a>
         </p>
     </div>
   </div>
