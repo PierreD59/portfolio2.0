@@ -1,7 +1,7 @@
 <?php 
 
 if (!isset($_GET['page'])) {
-    require ('controller/homeController.php');
+    require ('controller/accueilController.php');
 }
 else {
     require ('controller/' . htmlspecialchars($_GET['page']) . 'Controller.php');

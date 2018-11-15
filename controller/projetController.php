@@ -1,6 +1,7 @@
 <?php session_start();
 
-$title = "Portfolio - Mes réalisations" ?>
+$title = "Portfolio - Mes réalisations";
+?>
 
 <?php 
 ob_start();

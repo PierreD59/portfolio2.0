@@ -1,0 +1,51 @@
+@import '_variables';
+@import '_mixins';
+
+/* INDEX */
+
+.container-fluid {
+    height: 82vh;
+
+    .image-apropos {
+        @include radius(100%);
+        border: solid 1px black;
+        position: relative;
+        padding: 20%;
+        margin: auto;
+        margin-top: 20%;
+        max-width: 500px;
+
+    }
+
+    @media (min-width: 992px) {
+        .image-apropos {
+            padding: 8%;
+            margin-top: 5%;
+            max-width: 1200px;
+        }
+    }
+
+    .a_propos {
+        width: 100%;
+        margin: auto;
+
+        .text {
+            font-size: 15px;
+            font-family: $gothic;
+        }
+
+    }
+
+    @media (min-width: 992px) {
+        .a_propos {
+            width: 50%;
+        }
+
+        @media (min-width: 992px) {
+            .text {
+                font-size: 16px;
+            }
+        }
+    }
+
+}

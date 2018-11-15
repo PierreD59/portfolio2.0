@@ -1,10 +1,10 @@
-<footer class="navbar-dark bg-dark">
+<footer>
   <div class="social">
     <div class="icon">
-      <a href="https://www.linkedin.com/in/pierre-dumont-3a6103153/"><i class="fab fa-linkedin fa-2x"></i></a>
+      <a class="icon-color" href="https://www.linkedin.com/in/pierre-dumont-3a6103153/"><i class="fab fa-linkedin fa-2x"></i></a>
     </div>
     <div class="icon">
-      <a href="https://github.com/PierreD59"><i class="fab fa-github fa-2x ml-3"></i></a>
+      <a class="icon-color" href="https://github.com/PierreD59"><i class="fab fa-github fa-2x ml-3"></i></a>
     </div>
   </div>
 </footer>
@@ -12,9 +12,12 @@
 <script src="public/js/vendor/modernizr-3.6.0.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 <script>window.jQuery || document.write('<script src="public/js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
-<script src="public/js/plugins.js"></script>
-<script src="public/js/main.js"></script>
+
+<script src="public/js/card.js"></script>
 <script src="public/js/form.js"></script>
+<script src="public/js/main.js"></script>
+<script src="public/js/plugins.js"></script>
+
 <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
 <script>
   window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;

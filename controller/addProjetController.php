@@ -1,5 +1,6 @@
 <?php session_start();
-$title = "Portfolio - Ajout d'un projet" ?>
+$title = "Portfolio - Ajout d'un projet";
+?>
 
 <?php ob_start(); ?>
 <?php require('./model/addProjetModel.php');

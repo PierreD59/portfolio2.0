@@ -1,0 +1,156 @@
+/* HEADER */
+header {
+  background-color: #24252a; }
+
+/* FOOTER */
+footer {
+  width: 100%;
+  height: 10vh;
+  max-height: 10vh;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  background-color: #24252a; }
+  footer .social {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: auto; }
+    footer .social .icon-color {
+      color: #e67e22; }
+      footer .social .icon-color:hover {
+        color: #ff7700; }
+  @media (min-width: 992px) {
+    footer .social {
+      margin-right: 3%; } }
+
+/* CONTACT */
+.container-contact {
+  position: relative;
+  width: 80%;
+  margin: auto;
+  margin-top: 4%; }
+  .container-contact .title-contact {
+    margin-bottom: 25px;
+    text-align: center; }
+  .container-contact .form-area {
+    background-color: #FAFAFA;
+    padding: 10px 40px 60px;
+    margin: 10px 0px 60px;
+    border: 1px solid GREY; }
+
+@media (min-width: 992px) {
+  .container {
+    margin-top: 0;
+    max-width: 1000px; } }
+.message-email {
+  margin-top: 10%;
+  margin-left: 10%; }
+
+/* INDEX */
+.container-fluid {
+  height: 82vh; }
+  .container-fluid .image-apropos {
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -o-border-radius: 100%;
+    border-radius: 100%;
+    border: solid 1px black;
+    position: relative;
+    padding: 20%;
+    margin: auto;
+    margin-top: 20%;
+    max-width: 500px; }
+  @media (min-width: 992px) {
+    .container-fluid .image-apropos {
+      padding: 8%;
+      margin-top: 5%;
+      max-width: 1200px; } }
+  .container-fluid .a_propos {
+    width: 100%;
+    margin: auto; }
+    .container-fluid .a_propos .text {
+      font-size: 15px;
+      font-family: "Didact Gothic", arial; }
+  @media (min-width: 992px) {
+    .container-fluid .a_propos {
+      width: 50%; } }
+@media (min-width: 992px) and (min-width: 992px) {
+  .container-fluid .text {
+    font-size: 16px; } }
+
+/* PROJET */
+.card {
+  position: relative;
+  width: 50%;
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 400px; }
+  .card .card-body {
+    padding: 2%; }
+  .card .card-img-top {
+    display: block;
+    width: 100%;
+    height: auto; }
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background: #e67e22; }
+  .overlay .text-card {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 90%; }
+  .overlay .title-card {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%; }
+
+.card:hover .overlay {
+  opacity: 1; }
+
+.modal-accueil {
+  width: 100%;
+  height: 100vh;
+  background-color: #24252a;
+  display: flex;
+  align-items: center; }
+
+.accueil {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  font-family: "Didact Gothic", arial;
+  color: #ececec; }
+  .accueil .accueil-title {
+    font-size: 60px; }
+    .accueil .accueil-title .bold {
+      font-weight: bold; }
+  .accueil .accueil-subtitle {
+    font-size: 50px; }
+
+/*# sourceMappingURL=styles.css.map */

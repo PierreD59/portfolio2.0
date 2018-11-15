@@ -1,6 +1,7 @@
 <?php session_start();
 
-$title = "Portfolio - Index" ?>
+$title = "Portfolio - Accueil";
+?>
 
 <?php ob_start(); 
 require('view/header.php');

@@ -1,0 +1,32 @@
+/* CONTACT */
+.container-contact {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    margin-top: 4%;
+
+    .title-contact {
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+    .form-area {
+        background-color: #FAFAFA;
+        padding: 10px 40px 60px;
+        margin: 10px 0px 60px;
+        border: 1px solid GREY;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        margin-top: 0;
+        max-width: 1000px;
+    }
+
+}
+
+.message-email {
+    margin-top: 10%;
+    margin-left: 10%;
+}

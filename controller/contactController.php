@@ -1,6 +1,7 @@
 <?php session_start();
 
-$title = "Portfolio - Me contacter" ?>
+$title = "Portfolio - Me contacter";
+?>
 
 <?php ob_start(); ?>
 <?php require('view/header.php'); ?>
