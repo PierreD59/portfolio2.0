@@ -1,15 +1,19 @@
-<div class="container mt-3 mb-5">
+<div class="container">
     <div class="col-12 m-auto row">
+
 
 <!-- Create multi card -->
 <?php
 foreach ($products as $key => $value) { ?>
-    <div class="col-12 col-sm-12 col-md-6 col-lg-5 p-0 card">
-        <a href="products.php?&id=<?= $key ?>"><img class="card-img-top" src="<?= $value['src'] ?>" alt="Card image cap"/>
-        <div class="col-sm-10 col-md-6 col-lg-12 card-body">
-            <p class="card-text"> <?= $value['projet_name'] ?></p>
-        </div></a>
+
+    <div class="card">
+        <img class="card-img-top" src="<?= $value['src'] ?>" alt="Avatar" class="image">
+        <div class="overlay">
+            <div class="title-card"><?= $value['projet_name'] ?></div>
+            <div class="text-card"><?= $value['content'] ?></div>
+        </div>
     </div>
-<?php } ?>
+    <?php } ?> 
+
     </div>
 </div>

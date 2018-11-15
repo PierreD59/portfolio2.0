@@ -1,11 +1,12 @@
 {
-  "name": "portfolio",
+  "name": "portfolio2.0",
   "version": "1.0.0",
-  "description": "portfolio",
+  "description": "Portfolio",
   "main": "index.js",
-  "directories": {
-    "doc": "doc"
+  "dependencies": {
+    "gulp": "^3.9.1"
   },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,8 +19,5 @@
   "bugs": {
     "url": "https://github.com/PierreD59/portfolio2.0/issues"
   },
-  "homepage": "https://github.com/PierreD59/portfolio2.0#readme",
-  "devDependencies": {
-    "gulp": "^3.9.1"
-  }
+  "homepage": "https://github.com/PierreD59/portfolio2.0#readme"
 }

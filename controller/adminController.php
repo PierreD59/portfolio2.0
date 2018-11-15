@@ -1,5 +1,6 @@
 <?php session_start();
-$title = "Portfolio - Admin" ?>
+$title = "Portfolio - Admin";
+?>
 
 <?php ob_start();
 
